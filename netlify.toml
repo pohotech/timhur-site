@@ -1,0 +1,8 @@
+[build]
+  publish = "."
+
+[[redirects]]
+  from = "https://www.timhur.com/*"
+  to = "https://timhur.com/:splat"
+  status = 301
+  force = true
